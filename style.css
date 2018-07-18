@@ -1,16 +1,16 @@
 .parent{
     display: flex;
     flex-direction:column;
-  border : 3px solid red;
+  border : 3px solid #E74C3C  ;
 }
 .childone{
-  border : 3px solid blue;
+  border : 3px solid #E7F906;
   padding : 3%;
   margin :2%;
   width : 90%;
   text-align: center;
-    border-radius: 50%;
-    background-color: red;
+    border-radius: 10%;
+    background-color: #E74C3C  ;
 }
 img{
   width:40%;
@@ -18,35 +18,79 @@ img{
   align :center;
 }
 .childtwo{
-  border : 3px solid blue;
+  border : 3px solid #2E86C1  ;
   padding : 3%;
   margin :2%;
   width : 90%;
-  background-color: red;
+  background-color: #E74C3C  ;
 
 }
 @media only screen and (min-width:320px) and (max-width :440px){
   .parent{
       display: flex;
-      flex-direction:row;
-    border : 3px solid red;
+      flex-direction:column;
+    border : 3px solid #000000;
   }
   a{
     word-wrap: break-word;
   }
+  img{
+    width:40%;
+    border-radius: 75%;
+    align :center;
+  }
   .childone{
-    border : 3px solid blue;
+    border : 3px solid #2E86C1  ;
     padding : 3%;
     margin :2%;
     width : 50%;
     text-align: center;
-      border-radius: 50%;
-        background-color: skyblue;
+      border-radius: 10%;
+        background-color: sky#2E86C1  ;
+        color:#FFFFFF;
+
   }
   .childtwo{
-    border : 3px solid blue;
+    border : 3px solid #2E86C1  ;
     padding : 3%;
     margin :2%;
     width : 90%;
-    background-color: skyblue;
+    background-color: sky#2E86C1  ;
+      color:#FFFFFF;
+}
+a{
+    color:#FFFFFF;
+}
+}
+@media only screen and (min-width:450px) and (max-width :720px){
+  .parent{
+      display: flex;
+      flex-direction:column;
+    border : 3px solid #E74C3C  ;
+  }
+  a{
+    word-wrap: break-word;
+  }
+  img{
+    width:40%;
+    border-radius: 75%;
+    margin-left: 22%;
+    margin-right: 78%;
+  }
+  .childone{
+    border : 3px solid #2E86C1  ;
+    padding : 3%;
+    margin :2%;
+    width : 50%;
+    text-align: left;
+      border-radius: 10%;
+        background-color:orange;
+  }
+  .childtwo{
+    border : 3px solid #2E86C1  ;
+    padding : 3%;
+    margin :2%;
+    width : 90%;
+    background-color: #E7F906;
+}
 }
