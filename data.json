@@ -1,14 +1,68 @@
-{"basics":{
+{
+  "basics":{
   "image":"download.jpg",
-  "name":"surya",
+  "name":"srinivas",
   "phoneno":"91-9999999999",
   "email":"srinivas@gmail.com",
   "address":"srkr college",
-"v":"address :",
-"c":"career objective"
-},
-"obj":{
-  "main":"To continue my career with an organization that will utilize my MANAGEMENT, SUPERVISION & ADMINISTRATIVE skills to benefit mutual growth and success."
+  "v":"address :",
+  "c":"career objective"
+  },
 
-}
+  "obj":{
+  "main":"To continue my career with an organization that will utilize my MANAGEMENT, SUPERVISION & ADMINISTRATIVE skills to benefit mutual growth and success."
+  },
+
+  "education":[
+   {
+     "degree":"Btech",
+     "institute":"SRKR Engineering College",
+     "data":["2017-2021"]
+   },
+
+   {
+     "degree":"Intermidiate",
+     "institute":"narayana junior college",
+     "data":["2015-2017"]
+   },
+
+   {
+     "degree":"SSC",
+     "institute":"gss",
+     "data":["2015"]
+   }
+],
+
+    "skills":[
+     {
+         "data":"Languags",
+          "lang":"c,c++,java"
+     },
+
+     {
+       "data":"Data Base",
+       "lang":"mysql"
+     },
+
+     {
+       "data":"Operating Systems",
+       "lang":"linux,windows"
+     }
+  ],
+
+  "achivements":[
+  {
+    "title":"Code master",
+    "rank":"23rd rank"
+  },
+
+  {
+    "title":"Nptel in c:",
+    "rank":"83%"
+  },
+  {
+    "title":"Eamcet",
+    "rank":"26669"
+  }
+]
 }
